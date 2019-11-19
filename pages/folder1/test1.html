@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>String 集合 | 小汤家</title>
+    <meta name="description" content="小汤的前端记录">
+    <link rel="icon" href="/egg.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.b1f0db1c.css" as="style"><link rel="preload" href="/assets/js/app.b446f7a6.js" as="script"><link rel="preload" href="/assets/js/6.1a6cb902.js" as="script"><link rel="prefetch" href="/assets/js/10.3be71348.js"><link rel="prefetch" href="/assets/js/11.6d47dfbc.js"><link rel="prefetch" href="/assets/js/12.5df0d11c.js"><link rel="prefetch" href="/assets/js/2.41d047a1.js"><link rel="prefetch" href="/assets/js/3.34fb6675.js"><link rel="prefetch" href="/assets/js/4.91991037.js"><link rel="prefetch" href="/assets/js/5.44c965f5.js"><link rel="prefetch" href="/assets/js/7.e26d23b8.js"><link rel="prefetch" href="/assets/js/8.bf56a909.js"><link rel="prefetch" href="/assets/js/9.057cd604.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b1f0db1c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/egg.png" alt="小汤家" class="logo"> <span class="site-name can-hide">小汤家</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/test1.html" class="nav-link router-link-exact-active router-link-active">文章</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/test4.html" class="nav-link">杂碎</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder1/test3.html" class="nav-link">功能演示</a></div><div class="nav-item"><a href="https://github.com/dwanda" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/test1.html" class="nav-link router-link-exact-active router-link-active">文章</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/test4.html" class="nav-link">杂碎</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder1/test3.html" class="nav-link">功能演示</a></div><div class="nav-item"><a href="https://github.com/dwanda" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading open"><span>js笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/pages/folder1/test1.html" class="active sidebar-link">灵活运用JS开发技巧</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/pages/folder1/test1.html#string-集合" class="sidebar-link">String 集合</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test1.html#number-集合" class="sidebar-link">Number 集合</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test1.html#array-集合" class="sidebar-link">Array 集合</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test1.html#object-集合" class="sidebar-link">Object 集合</a></li><li class="sidebar-sub-header"><a href="/pages/folder1/test1.html#function-集合" class="sidebar-link">Function 集合</a></li></ul></li><li><a href="/pages/folder1/test3.html" class="sidebar-link">子菜单2</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>react笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/pages/folder1/test2.html" class="sidebar-link">子菜单1</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h2 id="string-集合"><a href="#string-集合" aria-hidden="true" class="header-anchor">#</a> String 集合</h2> <h3 id="生成随机id"><a href="#生成随机id" aria-hidden="true" class="header-anchor">#</a> 生成随机ID</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>     const RandomId = len =&gt; Math.random().toString(36).substr(3, len);
+     const id = RandomId(10);
+     // id =&gt; &quot;jg7zpgiqva&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="操作url查询参数"><a href="#操作url查询参数" aria-hidden="true" class="header-anchor">#</a> 操作URL查询参数</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const params = new URLSearchParams(location.search.replace(/\?/ig, &quot;&quot;)); // location.search = &quot;?name=young&amp;sex=male&quot;
+params.has(&quot;young&quot;); // true
+params.get(&quot;sex&quot;); // &quot;male&quot;
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="生成星级评分"><a href="#生成星级评分" aria-hidden="true" class="header-anchor">#</a> 生成星级评分</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const StartScore = rate =&gt; &quot;★★★★★☆☆☆☆☆&quot;.slice(5 - rate, 10 - rate);
+const start = StartScore(3);
+// start =&gt; &quot;★★★&quot;
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="number-集合"><a href="#number-集合" aria-hidden="true" class="header-anchor">#</a> Number 集合</h2> <h3 id="时间戳"><a href="#时间戳" aria-hidden="true" class="header-anchor">#</a> 时间戳</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const timestamp = +new Date(&quot;2019-02-14&quot;);
+// timestamp =&gt; 1550102400000
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="判断奇偶"><a href="#判断奇偶" aria-hidden="true" class="header-anchor">#</a> 判断奇偶</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const OddEven = num =&gt; !!(num &amp; 1) ? &quot;odd&quot; : &quot;even&quot;;
+const num = OddEven(2);
+// num =&gt; &quot;even&quot;
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="取最小最大值"><a href="#取最小最大值" aria-hidden="true" class="header-anchor">#</a> 取最小最大值</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const arr = [0, 1, 2];
+const min = Math.min(...arr);
+const max = Math.max(...arr);
+// min max =&gt; 0 2
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="满足条件时执行"><a href="#满足条件时执行" aria-hidden="true" class="header-anchor">#</a> 满足条件时执行</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const flagA = true; // 条件A
+const flagB = false; // 条件B
+(flagA || flagB) &amp;&amp; Func(); // 满足A或B时执行
+(flagA || !flagB) &amp;&amp; Func(); // 满足A或不满足B时执行
+flagA &amp;&amp; flagB &amp;&amp; Func(); // 同时满足A和B时执行
+flagA &amp;&amp; !flagB &amp;&amp; Func(); // 满足A且不满足B时执行
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="为非假值时执行"><a href="#为非假值时执行" aria-hidden="true" class="header-anchor">#</a> 为非假值时执行</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const flag = false; // undefined、null、&quot;&quot;、0、false、NaN
+!flag &amp;&amp; Func();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="数组不为空时执行"><a href="#数组不为空时执行" aria-hidden="true" class="header-anchor">#</a> 数组不为空时执行</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const arr = [0, 1, 2];
+arr.length &amp;&amp; Func();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="对象不为空时执行"><a href="#对象不为空时执行" aria-hidden="true" class="header-anchor">#</a> 对象不为空时执行</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const obj = { a: 0, b: 1, c: 2 };
+Object.keys(obj).length &amp;&amp; Func();
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="array-集合"><a href="#array-集合" aria-hidden="true" class="header-anchor">#</a> Array 集合</h2> <h3 id="克隆数组"><a href="#克隆数组" aria-hidden="true" class="header-anchor">#</a> 克隆数组</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const _arr = [0, 1, 2];
+const arr = [..._arr];
+// arr =&gt; [0, 1, 2]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="合并数组"><a href="#合并数组" aria-hidden="true" class="header-anchor">#</a> 合并数组</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const arr1 = [0, 1, 2];
+const arr2 = [3, 4, 5];
+const arr = [...arr1, ...arr2];
+// arr =&gt; [0, 1, 2, 3, 4, 5];
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="去重数组"><a href="#去重数组" aria-hidden="true" class="header-anchor">#</a> 去重数组</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const arr1 = [0, 1, 2];
+const arr2 = [3, 4, 5];
+const arr = [...arr1, ...arr2];
+// arr =&gt; [0, 1, 2, 3, 4, 5];
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="数组首部插入成员"><a href="#数组首部插入成员" aria-hidden="true" class="header-anchor">#</a> 数组首部插入成员</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>let arr = [1, 2]; // 以下方法任选一种
+arr.unshift(0);
+arr = [0, ...arr];
+// arr =&gt; [0, 1, 2]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="数组尾部插入成员"><a href="#数组尾部插入成员" aria-hidden="true" class="header-anchor">#</a> 数组尾部插入成员</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>let arr = [0, 1]; // 以下方法任选一种
+arr.push(2);
+arr = [...arr, 2];
+// arr =&gt; [0, 1, 2]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="reduce代替map和filter"><a href="#reduce代替map和filter" aria-hidden="true" class="header-anchor">#</a> reduce代替map和filter</h3> <div class="warning custom-block"><p class="custom-block-title">WARNING</p> <p>reduce有四个参数  1上一次调用回调返回的值，或者是提供的初始值、2数组中当前被处理的元素、3当前元素在数组中的索引、4调用 reduce 的数组</p></div> <div class="language- line-numbers-mode"><pre class="language-text"><code>const _arr = [0, 1, 2];
+
+// map
+const arr = _arr.map(v =&gt; v * 2);
+const arr = _arr.reduce((t, c) =&gt; {
+    t.push(c * 2);
+    return t;
+}, []);
+// arr =&gt; [0, 2, 4]
+
+// filter
+const arr = _arr.filter(v =&gt; v &gt; 0);
+const arr = _arr.reduce((t, c) =&gt; {
+    c &gt; 0 &amp;&amp; t.push(c);
+    return t;
+}, []);
+// arr =&gt; [1, 2]
+
+// map和filter
+const arr = _arr.map(v =&gt; v * 2).filter(v =&gt; v &gt; 2);
+const arr = _arr.reduce((t, c) =&gt; {
+    c = c * 2;
+    c &gt; 2 &amp;&amp; t.push(c);
+    return t;
+}, []);
+// arr =&gt; [4]
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br></div></div><h2 id="object-集合"><a href="#object-集合" aria-hidden="true" class="header-anchor">#</a> Object 集合</h2> <h3 id="克隆对象"><a href="#克隆对象" aria-hidden="true" class="header-anchor">#</a> 克隆对象</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const obj = {a:0,b:1.c:2} // 以下方法任选一种
+const obj = {...obj}
+const obj = JSON.parse(JSON.stringify(obj))
+// obj =&gt; {a:0, b:1, c:2}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="合并对象"><a href="#合并对象" aria-hidden="true" class="header-anchor">#</a> 合并对象</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const obj1 = {a:'1',b:'2'}
+const obj2 = {c:'3',d:'4'}
+const obj = {...obj1,...obj2}
+// obj =&gt; { a: 0, b: 1, c: 2 }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="对象字面量"><a href="#对象字面量" aria-hidden="true" class="header-anchor">#</a> 对象字面量</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const obj1 = {a:'1',b:'2'}
+const obj2 = {c:'3',d:'4'}
+const obj = {...obj1,...obj2}
+// obj =&gt; { a: 0, b: 1, c: 2 }
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="解构对象属性嵌套"><a href="#解构对象属性嵌套" aria-hidden="true" class="header-anchor">#</a> 解构对象属性嵌套</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const obj = { a: 0, b: 1, c: { d: 2, e: 3 } };
+const { c: { d, e } } = obj;
+// d e =&gt; 2 3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="解构对象属性默认值"><a href="#解构对象属性默认值" aria-hidden="true" class="header-anchor">#</a> 解构对象属性默认值</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const obj = { a: 0, b: 1, c: 2 };
+const { a, b = 2, d = 3 } = obj;
+// a b d =&gt; 0 1 3
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h2 id="function-集合"><a href="#function-集合" aria-hidden="true" class="header-anchor">#</a> Function 集合</h2> <h3 id="函数自执行"><a href="#函数自执行" aria-hidden="true" class="header-anchor">#</a> 函数自执行</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const Func = function() {}(); // 常用
+(function() {})(); // 常用
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="函数自执行-2"><a href="#函数自执行-2" aria-hidden="true" class="header-anchor">#</a> 函数自执行</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>const Func = function() {}(); // 常用
+(function() {})(); // 常用
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="一次性函数"><a href="#一次性函数" aria-hidden="true" class="header-anchor">#</a> 一次性函数</h3> <div class="warning custom-block"><p class="custom-block-title">WARNING</p> <p>只能用于单语句返回值箭头函数，如果返回值是对象必须使用()包住</p></div> <div class="language- line-numbers-mode"><pre class="language-text"><code>function Func() {
+    console.log(&quot;x&quot;);
+    Func = function() { // 关键代码
+        console.log(&quot;y&quot;);
+    }
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="优雅处理错误信息"><a href="#优雅处理错误信息" aria-hidden="true" class="header-anchor">#</a> 优雅处理错误信息</h3> <div class="language- line-numbers-mode"><pre class="language-text"><code>try {
+    Func();
+} catch (e) {
+    location.href = &quot;https://stackoverflow.com/search?q=[js]+&quot; + e.message;
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="存取localstorage"><a href="#存取localstorage" aria-hidden="true" class="header-anchor">#</a> 存取LocalStorage</h3> <div class="warning custom-block"><p class="custom-block-title">WARNING</p> <p>反序列化取，序列化存</p></div> <div class="language- line-numbers-mode"><pre class="language-text"><code>try {
+    Func();
+} catch (e) {
+    localStorage.setItem(&quot;love&quot;, JSON.stringify(&quot;I Love You&quot;)); //存
+    const love = JSON.parse(localStorage.getItem(&quot;love&quot;)); // 取
+}
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><!----> <span class="next"><a href="/pages/folder1/test3.html">
+          子菜单2
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.b446f7a6.js" defer></script><script src="/assets/js/6.1a6cb902.js" defer></script>
+  </body>
+</html>
