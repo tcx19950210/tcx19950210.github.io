@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Redux是什么 | 小汤家</title>
+    <meta name="description" content="小汤的前端记录">
+    <link rel="icon" href="/egg.png">
+    
+    <link rel="preload" href="/assets/css/0.styles.b1f0db1c.css" as="style"><link rel="preload" href="/assets/js/app.4320b2ce.js" as="script"><link rel="preload" href="/assets/js/10.c7593f6d.js" as="script"><link rel="prefetch" href="/assets/js/11.6c035bb0.js"><link rel="prefetch" href="/assets/js/12.6e9a25b9.js"><link rel="prefetch" href="/assets/js/13.9f79441d.js"><link rel="prefetch" href="/assets/js/14.1eb4fa50.js"><link rel="prefetch" href="/assets/js/2.f7317857.js"><link rel="prefetch" href="/assets/js/3.e3bb3f95.js"><link rel="prefetch" href="/assets/js/4.53b5279b.js"><link rel="prefetch" href="/assets/js/5.d8ba811d.js"><link rel="prefetch" href="/assets/js/6.0c58296a.js"><link rel="prefetch" href="/assets/js/7.1b710f61.js"><link rel="prefetch" href="/assets/js/8.85468a1d.js"><link rel="prefetch" href="/assets/js/9.5268e8e8.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.b1f0db1c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/egg.png" alt="小汤家" class="logo"> <span class="site-name can-hide">小汤家</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/test1.html" class="nav-link">文章</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/test4.html" class="nav-link">杂碎</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder1/test3.html" class="nav-link">功能演示</a></div><div class="nav-item"><a href="https://github.com/dwanda" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">首页</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">分类</span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/pages/folder1/test1.html" class="nav-link">文章</a></li><li class="dropdown-item"><!----> <a href="/pages/folder2/test4.html" class="nav-link">杂碎</a></li></ul></div></div><div class="nav-item"><a href="/pages/folder1/test3.html" class="nav-link">功能演示</a></div><div class="nav-item"><a href="https://github.com/dwanda" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><div class="sidebar-group first"><p class="sidebar-heading"><span>js笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/pages/folder1/test1.html" class="sidebar-link">灵活运用JS开发技巧</a></li><li><a href="/pages/folder1/test2.html" class="sidebar-link">react项目实战</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading open"><span>react笔记</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/pages/folder1/test3.html" class="sidebar-link">npm run eject报错</a></li><li><a href="/pages/folder1/test6.html" class="sidebar-link">react生命周期</a></li><li><a href="/pages/folder1/test7.html" class="active sidebar-link">Redux学习笔记</a><ul class="sidebar-sub-headers"></ul></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h3 id="redux是什么"><a href="#redux是什么" aria-hidden="true" class="header-anchor">#</a> Redux是什么</h3> <h4 id="专注于状态管理的库"><a href="#专注于状态管理的库" aria-hidden="true" class="header-anchor">#</a> 专注于状态管理的库</h4> <p>Redux专注于状态管理，和React解耦</p> <p>单一状态，单向数据流</p> <p>核心概念:store, state, action, reducer</p> <h4 id="主要工作流程"><a href="#主要工作流程" aria-hidden="true" class="header-anchor">#</a> 主要工作流程</h4> <ul><li>store 表示所有人的状态，在那里都有记录state</li> <li>需要改变的时候，需要告诉dispatch要干什么action</li> <li>处理变化的人reducer拿到state和action，生成新的state</li></ul> <h4 id="redux正确的使用方法"><a href="#redux正确的使用方法" aria-hidden="true" class="header-anchor">#</a> redux正确的使用方法</h4> <ul><li>首先通过reducer新建store, 随时通过store.getState获取状态</li> <li>需要状态变更 ,store dispatch(action)来修改状态</li> <li>Reducer函数接受state和action,返回新的state,可以用store.subsrcibe监听每次修改</li></ul> <div class="language- line-numbers-mode"><pre class="language-text"><code>import { createStore } from &quot;redux&quot;;
+// 新建store
+// 通过reducer建立
+// 根据老的state和action 生成新的状态
+function counter(state = 0, action) {
+  switch (action.type) {
+    case &quot;加机关枪&quot;:
+      return state + 1;
+    case &quot;减机关枪&quot;:
+      return state - 1;
+    default:
+      return 10;
+  }
+}
+
+// 新建store
+const store = createStore(counter);
+
+const init = store.getState();
+console.log(init);
+function listener() {
+  const current = store.getState();
+  console.log(`现在有机枪${current}把`);
+}
+store.subscribe(listener);
+// 派发事件 传递action
+store.dispatch({ type: &quot;加机关枪&quot; });
+store.dispatch({ type: &quot;加机关枪&quot; });
+store.dispatch({ type: &quot;减机关枪&quot; });
+// console.log(store.getState())
+
+// 控制台打印结果为
+现在有机枪11把
+现在有机枪12把
+现在有机枪11把
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br><span class="line-number">28</span><br><span class="line-number">29</span><br><span class="line-number">30</span><br><span class="line-number">31</span><br><span class="line-number">32</span><br><span class="line-number">33</span><br><span class="line-number">34</span><br><span class="line-number">35</span><br></div></div><h3 id="在实际项目中使用redux"><a href="#在实际项目中使用redux" aria-hidden="true" class="header-anchor">#</a> 在实际项目中使用redux</h3> <ul><li>把store.dispatch方法传递给数组，内部可以调用修改状态</li> <li>subscribe订阅render函数，每次修改都重新渲染</li> <li>redux相关内容， 移到单独的文件index.redux.js管理</li></ul></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/pages/folder1/test6.html" class="prev">
+          react生命周期
+        </a></span> <!----></p></div> </div> <!----></div></div>
+    <script src="/assets/js/app.4320b2ce.js" defer></script><script src="/assets/js/10.c7593f6d.js" defer></script>
+  </body>
+</html>
